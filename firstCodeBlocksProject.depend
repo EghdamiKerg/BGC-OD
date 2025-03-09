@@ -1,0 +1,1480 @@
+# depslib dependency file v1.0
+1606062320 source:/home/mahdie/codes/firstCodeBlocksProject/alignment.cpp
+	"alignment.h"
+	<sstream>
+	<string>
+
+1606062392 /home/mahdie/codes/firstCodeBlocksProject/alignment.h
+	<fstream>
+	"defs.h"
+
+1606065847 /home/mahdie/codes/firstCodeBlocksProject/defs.h
+	<cassert>
+	<cstdlib>
+	<stdint.h>
+	<iostream>
+	<sstream>
+	<new>
+	<sys/time.h>
+
+1606062506 source:/home/mahdie/codes/firstCodeBlocksProject/buffer_line_iterator.cpp
+	"buffer_line_iterator.h"
+
+1606062524 /home/mahdie/codes/firstCodeBlocksProject/buffer_line_iterator.h
+	<cstring>
+	<stdint.h>
+	<iostream>
+	<fstream>
+	<string>
+	<vector>
+	"defs.h"
+	"pod_darr.h"
+
+1551169977 /home/mahdie/codes/firstCodeBlocksProject/pod_darr.h
+	<cassert>
+	<cstring>
+	<iterator>
+	<iostream>
+	<sstream>
+	"defs.h"
+
+1606065847 source:/home/mahdie/codes/firstCodeBlocksProject/defs.cpp
+	"defs.h"
+
+1606065965 source:/home/mahdie/codes/firstCodeBlocksProject/diff_gapalign.cpp
+	"diff_gapalign.h"
+	<algorithm>
+	<set>
+	<cstdlib>
+	<cstring>
+
+1606065965 /home/mahdie/codes/firstCodeBlocksProject/diff_gapalign.h
+	"defs.h"
+	"alignment.h"
+	"gapalign.h"
+	<string>
+	<vector>
+
+1551169977 /home/mahdie/codes/firstCodeBlocksProject/gapalign.h
+
+1606077983 source:/home/mahdie/codes/firstCodeBlocksProject/fasta_reader.cpp
+	"fasta_reader.h"
+	<algorithm>
+	<sstream>
+
+1606066169 /home/mahdie/codes/firstCodeBlocksProject/fasta_reader.h
+	"buffer_line_iterator.h"
+	"sequence.h"
+
+1551169977 /home/mahdie/codes/firstCodeBlocksProject/sequence.h
+	"buffer_line_iterator.h"
+	<iostream>
+
+1551169977 source:/home/mahdie/codes/firstCodeBlocksProject/gapalign.cpp
+	"gapalign.h"
+	<algorithm>
+	"defs.h"
+
+1551169977 source:/home/mahdie/codes/firstCodeBlocksProject/lookup_table.cpp
+	"lookup_table.h"
+	"packed_db.h"
+	<cstdio>
+
+1551169977 /home/mahdie/codes/firstCodeBlocksProject/lookup_table.h
+	"split_database.h"
+
+1605546519 /home/mahdie/codes/firstCodeBlocksProject/split_database.h
+	"defs.h"
+
+1551169977 /home/mahdie/codes/firstCodeBlocksProject/packed_db.h
+	"defs.h"
+	"sequence.h"
+
+1551169977 source:/home/mahdie/codes/firstCodeBlocksProject/packed_db.cpp
+	"packed_db.h"
+	<fstream>
+	<string>
+	"defs.h"
+	"fasta_reader.h"
+
+1606066604 source:/home/mahdie/codes/firstCodeBlocksProject/pw.cpp
+	"pw_options.h"
+	"pw_impl.h"
+	"split_database.h"
+	<cstdio>
+	<fstream>
+	<unistd.h>
+	<sstream>
+	<string>
+
+1605546444 /home/mahdie/codes/firstCodeBlocksProject/pw_options.h
+	"defs.h"
+
+1605546577 /home/mahdie/codes/firstCodeBlocksProject/pw_impl.h
+	<iostream>
+	<math.h>
+	"alignment.h"
+	"packed_db.h"
+	"lookup_table.h"
+
+1551169977 source:/home/mahdie/codes/firstCodeBlocksProject/pw_options.cpp
+	"pw_options.h"
+	<unistd.h>
+	<dirent.h>
+	<sys/stat.h>
+	<cstdio>
+
+1606066737 source:/home/mahdie/codes/firstCodeBlocksProject/pw_impl.cpp
+	"split_database.h"
+	"pw_options.h"
+	"diff_gapalign.h"
+	"xdrop_gapalign.h"
+	"packed_db.h"
+	"lookup_table.h"
+	"pw_impl.h"
+	<algorithm>
+	<cassert>
+	<cstdio>
+	<cstdlib>
+	<cstring>
+
+1551169977 /home/mahdie/codes/firstCodeBlocksProject/xdrop_gapalign.h
+	"defs.h"
+	"gapalign.h"
+	<string>
+
+1551169977 source:/home/mahdie/codes/firstCodeBlocksProject/sequence.cpp
+	"sequence.h"
+
+1551169977 source:/home/mahdie/codes/firstCodeBlocksProject/split_database.cpp
+	"split_database.h"
+	<string.h>
+	<fstream>
+	<string>
+	"packed_db.h"
+	"fasta_reader.h"
+
+1551169977 source:/home/mahdie/codes/firstCodeBlocksProject/xdrop_gapalign.cpp
+	"xdrop_gapalign.h"
+	<algorithm>
+
+1606062320 source:/home/mahdie/codes/hashTable/alignment.cpp
+	"alignment.h"
+	<sstream>
+	<string>
+
+1606062392 /home/mahdie/codes/hashTable/alignment.h
+	<fstream>
+	"defs.h"
+
+1606065847 /home/mahdie/codes/hashTable/defs.h
+	<cassert>
+	<cstdlib>
+	<stdint.h>
+	<iostream>
+	<sstream>
+	<new>
+	<sys/time.h>
+
+1606062506 source:/home/mahdie/codes/hashTable/buffer_line_iterator.cpp
+	"buffer_line_iterator.h"
+
+1606062524 /home/mahdie/codes/hashTable/buffer_line_iterator.h
+	<cstring>
+	<stdint.h>
+	<iostream>
+	<fstream>
+	<string>
+	<vector>
+	"defs.h"
+	"pod_darr.h"
+
+1551169977 /home/mahdie/codes/hashTable/pod_darr.h
+	<cassert>
+	<cstring>
+	<iterator>
+	<iostream>
+	<sstream>
+	"defs.h"
+
+1606065847 source:/home/mahdie/codes/hashTable/defs.cpp
+	"defs.h"
+
+1606065965 source:/home/mahdie/codes/hashTable/diff_gapalign.cpp
+	"diff_gapalign.h"
+	<algorithm>
+	<set>
+	<cstdlib>
+	<cstring>
+
+1606065965 /home/mahdie/codes/hashTable/diff_gapalign.h
+	"defs.h"
+	"alignment.h"
+	"gapalign.h"
+	<string>
+	<vector>
+
+1551169977 /home/mahdie/codes/hashTable/gapalign.h
+
+1606077983 source:/home/mahdie/codes/hashTable/fasta_reader.cpp
+	"fasta_reader.h"
+	<algorithm>
+	<sstream>
+
+1606066169 /home/mahdie/codes/hashTable/fasta_reader.h
+	"buffer_line_iterator.h"
+	"sequence.h"
+
+1551169977 /home/mahdie/codes/hashTable/sequence.h
+	"buffer_line_iterator.h"
+	<iostream>
+
+1551169977 source:/home/mahdie/codes/hashTable/gapalign.cpp
+	"gapalign.h"
+	<algorithm>
+	"defs.h"
+
+1551169977 source:/home/mahdie/codes/hashTable/packed_db.cpp
+	"packed_db.h"
+	<fstream>
+	<string>
+	"defs.h"
+	"fasta_reader.h"
+
+1551169977 /home/mahdie/codes/hashTable/packed_db.h
+	"defs.h"
+	"sequence.h"
+
+1606066604 source:/home/mahdie/codes/hashTable/pw.cpp
+	"pw_options.h"
+	"pw_impl.h"
+	"split_database.h"
+	<cstdio>
+	<fstream>
+	<unistd.h>
+	<sstream>
+	<string>
+
+1605546444 /home/mahdie/codes/hashTable/pw_options.h
+	"defs.h"
+
+1605546577 /home/mahdie/codes/hashTable/pw_impl.h
+	<iostream>
+	<math.h>
+	"alignment.h"
+	"packed_db.h"
+	"lookup_table.h"
+
+1606771255 /home/mahdie/codes/hashTable/lookup_table.h
+	"split_database.h"
+
+1605546519 /home/mahdie/codes/hashTable/split_database.h
+	"defs.h"
+
+1606837233 source:/home/mahdie/codes/hashTable/pw_impl.cpp
+	"split_database.h"
+	"pw_options.h"
+	"diff_gapalign.h"
+	"xdrop_gapalign.h"
+	"packed_db.h"
+	"lookup_table.h"
+	"pw_impl.h"
+	<algorithm>
+	<cassert>
+	<cstdio>
+	<cstdlib>
+	<cstring>
+
+1551169977 /home/mahdie/codes/hashTable/xdrop_gapalign.h
+	"defs.h"
+	"gapalign.h"
+	<string>
+
+1551169977 source:/home/mahdie/codes/hashTable/pw_options.cpp
+	"pw_options.h"
+	<unistd.h>
+	<dirent.h>
+	<sys/stat.h>
+	<cstdio>
+
+1551169977 source:/home/mahdie/codes/hashTable/sequence.cpp
+	"sequence.h"
+
+1551169977 source:/home/mahdie/codes/hashTable/split_database.cpp
+	"split_database.h"
+	<string.h>
+	<fstream>
+	<string>
+	"packed_db.h"
+	"fasta_reader.h"
+
+1551169977 source:/home/mahdie/codes/hashTable/xdrop_gapalign.cpp
+	"xdrop_gapalign.h"
+	<algorithm>
+
+1606837109 source:/home/mahdie/codes/hashTable/lookup_table.cpp
+	"lookup_table.h"
+	"packed_db.h"
+	<cstdio>
+
+1606062320 source:/home/mahdie/codes/hashTable 2/alignment.cpp
+	"alignment.h"
+	<sstream>
+	<string>
+
+1606062392 /home/mahdie/codes/hashTable 2/alignment.h
+	<fstream>
+	"defs.h"
+
+1606065847 /home/mahdie/codes/hashTable 2/defs.h
+	<cassert>
+	<cstdlib>
+	<stdint.h>
+	<iostream>
+	<sstream>
+	<new>
+	<sys/time.h>
+
+1606062506 source:/home/mahdie/codes/hashTable 2/buffer_line_iterator.cpp
+	"buffer_line_iterator.h"
+
+1606062524 /home/mahdie/codes/hashTable 2/buffer_line_iterator.h
+	<cstring>
+	<stdint.h>
+	<iostream>
+	<fstream>
+	<string>
+	<vector>
+	"defs.h"
+	"pod_darr.h"
+
+1551169977 /home/mahdie/codes/hashTable 2/pod_darr.h
+	<cassert>
+	<cstring>
+	<iterator>
+	<iostream>
+	<sstream>
+	"defs.h"
+
+1606065847 source:/home/mahdie/codes/hashTable 2/defs.cpp
+	"defs.h"
+
+1606065965 source:/home/mahdie/codes/hashTable 2/diff_gapalign.cpp
+	"diff_gapalign.h"
+	<algorithm>
+	<set>
+	<cstdlib>
+	<cstring>
+
+1606065965 /home/mahdie/codes/hashTable 2/diff_gapalign.h
+	"defs.h"
+	"alignment.h"
+	"gapalign.h"
+	<string>
+	<vector>
+
+1551169977 /home/mahdie/codes/hashTable 2/gapalign.h
+
+1606077983 source:/home/mahdie/codes/hashTable 2/fasta_reader.cpp
+	"fasta_reader.h"
+	<algorithm>
+	<sstream>
+
+1606066169 /home/mahdie/codes/hashTable 2/fasta_reader.h
+	"buffer_line_iterator.h"
+	"sequence.h"
+
+1551169977 /home/mahdie/codes/hashTable 2/sequence.h
+	"buffer_line_iterator.h"
+	<iostream>
+
+1551169977 source:/home/mahdie/codes/hashTable 2/gapalign.cpp
+	"gapalign.h"
+	<algorithm>
+	"defs.h"
+
+1551169977 source:/home/mahdie/codes/hashTable 2/packed_db.cpp
+	"packed_db.h"
+	<fstream>
+	<string>
+	"defs.h"
+	"fasta_reader.h"
+
+1551169977 /home/mahdie/codes/hashTable 2/packed_db.h
+	"defs.h"
+	"sequence.h"
+
+1606066604 source:/home/mahdie/codes/hashTable 2/pw.cpp
+	"pw_options.h"
+	"pw_impl.h"
+	"split_database.h"
+	<cstdio>
+	<fstream>
+	<unistd.h>
+	<sstream>
+	<string>
+
+1605546444 /home/mahdie/codes/hashTable 2/pw_options.h
+	"defs.h"
+
+1607330040 /home/mahdie/codes/hashTable 2/pw_impl.h
+	<iostream>
+	<math.h>
+	"alignment.h"
+	"packed_db.h"
+	"lookup_table.h"
+
+1607240892 /home/mahdie/codes/hashTable 2/lookup_table.h
+	"split_database.h"
+
+1605546519 /home/mahdie/codes/hashTable 2/split_database.h
+	"defs.h"
+
+1551169977 source:/home/mahdie/codes/hashTable 2/pw_options.cpp
+	"pw_options.h"
+	<unistd.h>
+	<dirent.h>
+	<sys/stat.h>
+	<cstdio>
+
+1551169977 source:/home/mahdie/codes/hashTable 2/sequence.cpp
+	"sequence.h"
+
+1551169977 source:/home/mahdie/codes/hashTable 2/split_database.cpp
+	"split_database.h"
+	<string.h>
+	<fstream>
+	<string>
+	"packed_db.h"
+	"fasta_reader.h"
+
+1551169977 source:/home/mahdie/codes/hashTable 2/xdrop_gapalign.cpp
+	"xdrop_gapalign.h"
+	<algorithm>
+
+1551169977 /home/mahdie/codes/hashTable 2/xdrop_gapalign.h
+	"defs.h"
+	"gapalign.h"
+	<string>
+
+1607456920 source:/home/mahdie/codes/hashTable 2/pw_impl.cpp
+	"split_database.h"
+	"pw_options.h"
+	"diff_gapalign.h"
+	"xdrop_gapalign.h"
+	"packed_db.h"
+	"lookup_table.h"
+	"pw_impl.h"
+	<algorithm>
+	<cassert>
+	<cstdio>
+	<cstdlib>
+	<cstring>
+
+1607461242 source:/home/mahdie/codes/hashTable 2/lookup_table.cpp
+	"lookup_table.h"
+	"packed_db.h"
+	<cstdio>
+
+1606062320 source:/home/eghdami/Documents/hashTable 2/alignment.cpp
+	"alignment.h"
+	<sstream>
+	<string>
+
+1606062392 /home/eghdami/Documents/hashTable 2/alignment.h
+	<fstream>
+	"defs.h"
+
+1606065847 /home/eghdami/Documents/hashTable 2/defs.h
+	<cassert>
+	<cstdlib>
+	<stdint.h>
+	<iostream>
+	<sstream>
+	<new>
+	<sys/time.h>
+
+1606062506 source:/home/eghdami/Documents/hashTable 2/buffer_line_iterator.cpp
+	"buffer_line_iterator.h"
+
+1606062524 /home/eghdami/Documents/hashTable 2/buffer_line_iterator.h
+	<cstring>
+	<stdint.h>
+	<iostream>
+	<fstream>
+	<string>
+	<vector>
+	"defs.h"
+	"pod_darr.h"
+
+1551169977 /home/eghdami/Documents/hashTable 2/pod_darr.h
+	<cassert>
+	<cstring>
+	<iterator>
+	<iostream>
+	<sstream>
+	"defs.h"
+
+1606065847 source:/home/eghdami/Documents/hashTable 2/defs.cpp
+	"defs.h"
+
+1606065965 source:/home/eghdami/Documents/hashTable 2/diff_gapalign.cpp
+	"diff_gapalign.h"
+	<algorithm>
+	<set>
+	<cstdlib>
+	<cstring>
+
+1606065965 /home/eghdami/Documents/hashTable 2/diff_gapalign.h
+	"defs.h"
+	"alignment.h"
+	"gapalign.h"
+	<string>
+	<vector>
+
+1551169977 /home/eghdami/Documents/hashTable 2/gapalign.h
+
+1606077983 source:/home/eghdami/Documents/hashTable 2/fasta_reader.cpp
+	"fasta_reader.h"
+	<algorithm>
+	<sstream>
+
+1606066169 /home/eghdami/Documents/hashTable 2/fasta_reader.h
+	"buffer_line_iterator.h"
+	"sequence.h"
+
+1551169977 /home/eghdami/Documents/hashTable 2/sequence.h
+	"buffer_line_iterator.h"
+	<iostream>
+
+1551169977 source:/home/eghdami/Documents/hashTable 2/gapalign.cpp
+	"gapalign.h"
+	<algorithm>
+	"defs.h"
+
+1658390310 source:/home/eghdami/Documents/hashTable 2/lookup_table.cpp
+	"lookup_table.h"
+	"packed_db.h"
+	<cstdio>
+
+1607240892 /home/eghdami/Documents/hashTable 2/lookup_table.h
+	"split_database.h"
+
+1605546519 /home/eghdami/Documents/hashTable 2/split_database.h
+	"defs.h"
+
+1551169977 /home/eghdami/Documents/hashTable 2/packed_db.h
+	"defs.h"
+	"sequence.h"
+
+1551169977 source:/home/eghdami/Documents/hashTable 2/packed_db.cpp
+	"packed_db.h"
+	<fstream>
+	<string>
+	"defs.h"
+	"fasta_reader.h"
+
+1606066604 source:/home/eghdami/Documents/hashTable 2/pw.cpp
+	"pw_options.h"
+	"pw_impl.h"
+	"split_database.h"
+	<cstdio>
+	<fstream>
+	<unistd.h>
+	<sstream>
+	<string>
+
+1605546444 /home/eghdami/Documents/hashTable 2/pw_options.h
+	"defs.h"
+
+1607330040 /home/eghdami/Documents/hashTable 2/pw_impl.h
+	<iostream>
+	<math.h>
+	"alignment.h"
+	"packed_db.h"
+	"lookup_table.h"
+
+1658392894 source:/home/eghdami/Documents/hashTable 2/pw_impl.cpp
+	"split_database.h"
+	"pw_options.h"
+	"diff_gapalign.h"
+	"xdrop_gapalign.h"
+	"packed_db.h"
+	"lookup_table.h"
+	"pw_impl.h"
+	<algorithm>
+	<cassert>
+	<cstdio>
+	<cstdlib>
+	<cstring>
+
+1551169977 /home/eghdami/Documents/hashTable 2/xdrop_gapalign.h
+	"defs.h"
+	"gapalign.h"
+	<string>
+
+1551169977 source:/home/eghdami/Documents/hashTable 2/pw_options.cpp
+	"pw_options.h"
+	<unistd.h>
+	<dirent.h>
+	<sys/stat.h>
+	<cstdio>
+
+1551169977 source:/home/eghdami/Documents/hashTable 2/sequence.cpp
+	"sequence.h"
+
+1551169977 source:/home/eghdami/Documents/hashTable 2/xdrop_gapalign.cpp
+	"xdrop_gapalign.h"
+	<algorithm>
+
+1655883736 source:/home/eghdami/Documents/hashTable 2/split_database.cpp
+	"split_database.h"
+	<string.h>
+	<fstream>
+	<string>
+	"packed_db.h"
+	"fasta_reader.h"
+
+1606062320 source:/home/eghdami/Documents/marked_blocks/alignment.cpp
+	"alignment.h"
+	<sstream>
+	<string>
+
+1606062392 /home/eghdami/Documents/marked_blocks/alignment.h
+	<fstream>
+	"defs.h"
+
+1606065847 /home/eghdami/Documents/marked_blocks/defs.h
+	<cassert>
+	<cstdlib>
+	<stdint.h>
+	<iostream>
+	<sstream>
+	<new>
+	<sys/time.h>
+
+1606062506 source:/home/eghdami/Documents/marked_blocks/buffer_line_iterator.cpp
+	"buffer_line_iterator.h"
+
+1606062524 /home/eghdami/Documents/marked_blocks/buffer_line_iterator.h
+	<cstring>
+	<stdint.h>
+	<iostream>
+	<fstream>
+	<string>
+	<vector>
+	"defs.h"
+	"pod_darr.h"
+
+1551169977 /home/eghdami/Documents/marked_blocks/pod_darr.h
+	<cassert>
+	<cstring>
+	<iterator>
+	<iostream>
+	<sstream>
+	"defs.h"
+
+1606065847 source:/home/eghdami/Documents/marked_blocks/defs.cpp
+	"defs.h"
+
+1606065965 source:/home/eghdami/Documents/marked_blocks/diff_gapalign.cpp
+	"diff_gapalign.h"
+	<algorithm>
+	<set>
+	<cstdlib>
+	<cstring>
+
+1606065965 /home/eghdami/Documents/marked_blocks/diff_gapalign.h
+	"defs.h"
+	"alignment.h"
+	"gapalign.h"
+	<string>
+	<vector>
+
+1551169977 /home/eghdami/Documents/marked_blocks/gapalign.h
+
+1606077983 source:/home/eghdami/Documents/marked_blocks/fasta_reader.cpp
+	"fasta_reader.h"
+	<algorithm>
+	<sstream>
+
+1606066169 /home/eghdami/Documents/marked_blocks/fasta_reader.h
+	"buffer_line_iterator.h"
+	"sequence.h"
+
+1551169977 /home/eghdami/Documents/marked_blocks/sequence.h
+	"buffer_line_iterator.h"
+	<iostream>
+
+1551169977 source:/home/eghdami/Documents/marked_blocks/gapalign.cpp
+	"gapalign.h"
+	<algorithm>
+	"defs.h"
+
+1551169977 source:/home/eghdami/Documents/marked_blocks/packed_db.cpp
+	"packed_db.h"
+	<fstream>
+	<string>
+	"defs.h"
+	"fasta_reader.h"
+
+1551169977 /home/eghdami/Documents/marked_blocks/packed_db.h
+	"defs.h"
+	"sequence.h"
+
+1606066604 source:/home/eghdami/Documents/marked_blocks/pw.cpp
+	"pw_options.h"
+	"pw_impl.h"
+	"split_database.h"
+	<cstdio>
+	<fstream>
+	<unistd.h>
+	<sstream>
+	<string>
+
+1605546444 /home/eghdami/Documents/marked_blocks/pw_options.h
+	"defs.h"
+
+1659250682 /home/eghdami/Documents/marked_blocks/pw_impl.h
+	<iostream>
+	<math.h>
+	"alignment.h"
+	"packed_db.h"
+	"lookup_table.h"
+
+1607240892 /home/eghdami/Documents/marked_blocks/lookup_table.h
+	"split_database.h"
+
+1605546519 /home/eghdami/Documents/marked_blocks/split_database.h
+	"defs.h"
+
+1551169977 source:/home/eghdami/Documents/marked_blocks/pw_options.cpp
+	"pw_options.h"
+	<unistd.h>
+	<dirent.h>
+	<sys/stat.h>
+	<cstdio>
+
+1551169977 source:/home/eghdami/Documents/marked_blocks/sequence.cpp
+	"sequence.h"
+
+1655883736 source:/home/eghdami/Documents/marked_blocks/split_database.cpp
+	"split_database.h"
+	<string.h>
+	<fstream>
+	<string>
+	"packed_db.h"
+	"fasta_reader.h"
+
+1551169977 source:/home/eghdami/Documents/marked_blocks/xdrop_gapalign.cpp
+	"xdrop_gapalign.h"
+	<algorithm>
+
+1551169977 /home/eghdami/Documents/marked_blocks/xdrop_gapalign.h
+	"defs.h"
+	"gapalign.h"
+	<string>
+
+1658761055 source:/home/eghdami/Documents/marked_blocks/lookup_table.cpp
+	"lookup_table.h"
+	"packed_db.h"
+	<cstdio>
+
+1659344122 source:/home/eghdami/Documents/marked_blocks/pw_impl.cpp
+	"split_database.h"
+	"pw_options.h"
+	"diff_gapalign.h"
+	"xdrop_gapalign.h"
+	"packed_db.h"
+	"lookup_table.h"
+	"second_lookup_table.h"
+	"pw_impl.h"
+	<algorithm>
+	<cassert>
+	<cstdio>
+	<cstdlib>
+	<cstring>
+
+1659275617 /home/eghdami/Documents/marked_blocks/second_lookup_table.h
+	"split_database.h"
+
+1659284029 source:/home/eghdami/Documents/marked_blocks/second_lookup_table.cpp
+	"second_lookup_table.h"
+	"packed_db.h"
+	<cstdio>
+
+1606062320 source:/media/kerg/DA9CC7989CC76D97/Eghdami/codes/marked_blocks/alignment.cpp
+	"alignment.h"
+	<sstream>
+	<string>
+
+1606062392 /media/kerg/DA9CC7989CC76D97/Eghdami/codes/marked_blocks/alignment.h
+	<fstream>
+	"defs.h"
+
+1606065847 /media/kerg/DA9CC7989CC76D97/Eghdami/codes/marked_blocks/defs.h
+	<cassert>
+	<cstdlib>
+	<stdint.h>
+	<iostream>
+	<sstream>
+	<new>
+	<sys/time.h>
+
+1606062506 source:/media/kerg/DA9CC7989CC76D97/Eghdami/codes/marked_blocks/buffer_line_iterator.cpp
+	"buffer_line_iterator.h"
+
+1606062524 /media/kerg/DA9CC7989CC76D97/Eghdami/codes/marked_blocks/buffer_line_iterator.h
+	<cstring>
+	<stdint.h>
+	<iostream>
+	<fstream>
+	<string>
+	<vector>
+	"defs.h"
+	"pod_darr.h"
+
+1551169977 /media/kerg/DA9CC7989CC76D97/Eghdami/codes/marked_blocks/pod_darr.h
+	<cassert>
+	<cstring>
+	<iterator>
+	<iostream>
+	<sstream>
+	"defs.h"
+
+1606065847 source:/media/kerg/DA9CC7989CC76D97/Eghdami/codes/marked_blocks/defs.cpp
+	"defs.h"
+
+1606065965 source:/media/kerg/DA9CC7989CC76D97/Eghdami/codes/marked_blocks/diff_gapalign.cpp
+	"diff_gapalign.h"
+	<algorithm>
+	<set>
+	<cstdlib>
+	<cstring>
+
+1606065965 /media/kerg/DA9CC7989CC76D97/Eghdami/codes/marked_blocks/diff_gapalign.h
+	"defs.h"
+	"alignment.h"
+	"gapalign.h"
+	<string>
+	<vector>
+
+1551169977 /media/kerg/DA9CC7989CC76D97/Eghdami/codes/marked_blocks/gapalign.h
+
+1606077983 source:/media/kerg/DA9CC7989CC76D97/Eghdami/codes/marked_blocks/fasta_reader.cpp
+	"fasta_reader.h"
+	<algorithm>
+	<sstream>
+
+1606066169 /media/kerg/DA9CC7989CC76D97/Eghdami/codes/marked_blocks/fasta_reader.h
+	"buffer_line_iterator.h"
+	"sequence.h"
+
+1551169977 /media/kerg/DA9CC7989CC76D97/Eghdami/codes/marked_blocks/sequence.h
+	"buffer_line_iterator.h"
+	<iostream>
+
+1551169977 source:/media/kerg/DA9CC7989CC76D97/Eghdami/codes/marked_blocks/gapalign.cpp
+	"gapalign.h"
+	<algorithm>
+	"defs.h"
+
+1660551999 source:/media/kerg/DA9CC7989CC76D97/Eghdami/codes/marked_blocks/lookup_table.cpp
+	"lookup_table.h"
+	"packed_db.h"
+	<cstdio>
+
+1607240892 /media/kerg/DA9CC7989CC76D97/Eghdami/codes/marked_blocks/lookup_table.h
+	"split_database.h"
+
+1605546519 /media/kerg/DA9CC7989CC76D97/Eghdami/codes/marked_blocks/split_database.h
+	"defs.h"
+
+1551169977 /media/kerg/DA9CC7989CC76D97/Eghdami/codes/marked_blocks/packed_db.h
+	"defs.h"
+	"sequence.h"
+
+1551169977 source:/media/kerg/DA9CC7989CC76D97/Eghdami/codes/marked_blocks/packed_db.cpp
+	"packed_db.h"
+	<fstream>
+	<string>
+	"defs.h"
+	"fasta_reader.h"
+
+1606066604 source:/media/kerg/DA9CC7989CC76D97/Eghdami/codes/marked_blocks/pw.cpp
+	"pw_options.h"
+	"pw_impl.h"
+	"split_database.h"
+	<cstdio>
+	<fstream>
+	<unistd.h>
+	<sstream>
+	<string>
+
+1605546444 /media/kerg/DA9CC7989CC76D97/Eghdami/codes/marked_blocks/pw_options.h
+	"defs.h"
+
+1663228574 /media/kerg/DA9CC7989CC76D97/Eghdami/codes/marked_blocks/pw_impl.h
+	<iostream>
+	<math.h>
+	"alignment.h"
+	"packed_db.h"
+	"lookup_table.h"
+
+1663228574 source:/media/kerg/DA9CC7989CC76D97/Eghdami/codes/marked_blocks/pw_impl.cpp
+	"split_database.h"
+	"pw_options.h"
+	"diff_gapalign.h"
+	"xdrop_gapalign.h"
+	"packed_db.h"
+	"lookup_table.h"
+	"second_lookup_table.h"
+	"pw_impl.h"
+	<algorithm>
+	<cassert>
+	<cstdio>
+	<cstdlib>
+	<cstring>
+
+1551169977 /media/kerg/DA9CC7989CC76D97/Eghdami/codes/marked_blocks/xdrop_gapalign.h
+	"defs.h"
+	"gapalign.h"
+	<string>
+
+1659275617 /media/kerg/DA9CC7989CC76D97/Eghdami/codes/marked_blocks/second_lookup_table.h
+	"split_database.h"
+
+1551169977 source:/media/kerg/DA9CC7989CC76D97/Eghdami/codes/marked_blocks/pw_options.cpp
+	"pw_options.h"
+	<unistd.h>
+	<dirent.h>
+	<sys/stat.h>
+	<cstdio>
+
+1659344943 source:/media/kerg/DA9CC7989CC76D97/Eghdami/codes/marked_blocks/second_lookup_table.cpp
+	"second_lookup_table.h"
+	"packed_db.h"
+	<cstdio>
+
+1551169977 source:/media/kerg/DA9CC7989CC76D97/Eghdami/codes/marked_blocks/sequence.cpp
+	"sequence.h"
+
+1655883736 source:/media/kerg/DA9CC7989CC76D97/Eghdami/codes/marked_blocks/split_database.cpp
+	"split_database.h"
+	<string.h>
+	<fstream>
+	<string>
+	"packed_db.h"
+	"fasta_reader.h"
+
+1551169977 source:/media/kerg/DA9CC7989CC76D97/Eghdami/codes/marked_blocks/xdrop_gapalign.cpp
+	"xdrop_gapalign.h"
+	<algorithm>
+
+1606062320 source:/media/kerg/DA9CC7989CC76D97/Eghdami/codes/marked_blocks_less_memory/alignment.cpp
+	"alignment.h"
+	<sstream>
+	<string>
+
+1606062392 /media/kerg/DA9CC7989CC76D97/Eghdami/codes/marked_blocks_less_memory/alignment.h
+	<fstream>
+	"defs.h"
+
+1606065847 /media/kerg/DA9CC7989CC76D97/Eghdami/codes/marked_blocks_less_memory/defs.h
+	<cassert>
+	<cstdlib>
+	<stdint.h>
+	<iostream>
+	<sstream>
+	<new>
+	<sys/time.h>
+
+1606062506 source:/media/kerg/DA9CC7989CC76D97/Eghdami/codes/marked_blocks_less_memory/buffer_line_iterator.cpp
+	"buffer_line_iterator.h"
+
+1606062524 /media/kerg/DA9CC7989CC76D97/Eghdami/codes/marked_blocks_less_memory/buffer_line_iterator.h
+	<cstring>
+	<stdint.h>
+	<iostream>
+	<fstream>
+	<string>
+	<vector>
+	"defs.h"
+	"pod_darr.h"
+
+1551169977 /media/kerg/DA9CC7989CC76D97/Eghdami/codes/marked_blocks_less_memory/pod_darr.h
+	<cassert>
+	<cstring>
+	<iterator>
+	<iostream>
+	<sstream>
+	"defs.h"
+
+1606065847 source:/media/kerg/DA9CC7989CC76D97/Eghdami/codes/marked_blocks_less_memory/defs.cpp
+	"defs.h"
+
+1606065965 source:/media/kerg/DA9CC7989CC76D97/Eghdami/codes/marked_blocks_less_memory/diff_gapalign.cpp
+	"diff_gapalign.h"
+	<algorithm>
+	<set>
+	<cstdlib>
+	<cstring>
+
+1606065965 /media/kerg/DA9CC7989CC76D97/Eghdami/codes/marked_blocks_less_memory/diff_gapalign.h
+	"defs.h"
+	"alignment.h"
+	"gapalign.h"
+	<string>
+	<vector>
+
+1551169977 /media/kerg/DA9CC7989CC76D97/Eghdami/codes/marked_blocks_less_memory/gapalign.h
+
+1606077983 source:/media/kerg/DA9CC7989CC76D97/Eghdami/codes/marked_blocks_less_memory/fasta_reader.cpp
+	"fasta_reader.h"
+	<algorithm>
+	<sstream>
+
+1606066169 /media/kerg/DA9CC7989CC76D97/Eghdami/codes/marked_blocks_less_memory/fasta_reader.h
+	"buffer_line_iterator.h"
+	"sequence.h"
+
+1551169977 /media/kerg/DA9CC7989CC76D97/Eghdami/codes/marked_blocks_less_memory/sequence.h
+	"buffer_line_iterator.h"
+	<iostream>
+
+1551169977 source:/media/kerg/DA9CC7989CC76D97/Eghdami/codes/marked_blocks_less_memory/gapalign.cpp
+	"gapalign.h"
+	<algorithm>
+	"defs.h"
+
+1660551999 source:/media/kerg/DA9CC7989CC76D97/Eghdami/codes/marked_blocks_less_memory/lookup_table.cpp
+	"lookup_table.h"
+	"packed_db.h"
+	<cstdio>
+
+1607240892 /media/kerg/DA9CC7989CC76D97/Eghdami/codes/marked_blocks_less_memory/lookup_table.h
+	"split_database.h"
+
+1605546519 /media/kerg/DA9CC7989CC76D97/Eghdami/codes/marked_blocks_less_memory/split_database.h
+	"defs.h"
+
+1551169977 /media/kerg/DA9CC7989CC76D97/Eghdami/codes/marked_blocks_less_memory/packed_db.h
+	"defs.h"
+	"sequence.h"
+
+1551169977 source:/media/kerg/DA9CC7989CC76D97/Eghdami/codes/marked_blocks_less_memory/packed_db.cpp
+	"packed_db.h"
+	<fstream>
+	<string>
+	"defs.h"
+	"fasta_reader.h"
+
+1606066604 source:/media/kerg/DA9CC7989CC76D97/Eghdami/codes/marked_blocks_less_memory/pw.cpp
+	"pw_options.h"
+	"pw_impl.h"
+	"split_database.h"
+	<cstdio>
+	<fstream>
+	<unistd.h>
+	<sstream>
+	<string>
+
+1605546444 /media/kerg/DA9CC7989CC76D97/Eghdami/codes/marked_blocks_less_memory/pw_options.h
+	"defs.h"
+
+1663285837 /media/kerg/DA9CC7989CC76D97/Eghdami/codes/marked_blocks_less_memory/pw_impl.h
+	<iostream>
+	<math.h>
+	"alignment.h"
+	"packed_db.h"
+	"lookup_table.h"
+
+1551169977 source:/media/kerg/DA9CC7989CC76D97/Eghdami/codes/marked_blocks_less_memory/pw_options.cpp
+	"pw_options.h"
+	<unistd.h>
+	<dirent.h>
+	<sys/stat.h>
+	<cstdio>
+
+1659344943 source:/media/kerg/DA9CC7989CC76D97/Eghdami/codes/marked_blocks_less_memory/second_lookup_table.cpp
+	"second_lookup_table.h"
+	"packed_db.h"
+	<cstdio>
+
+1659275617 /media/kerg/DA9CC7989CC76D97/Eghdami/codes/marked_blocks_less_memory/second_lookup_table.h
+	"split_database.h"
+
+1551169977 source:/media/kerg/DA9CC7989CC76D97/Eghdami/codes/marked_blocks_less_memory/sequence.cpp
+	"sequence.h"
+
+1655883736 source:/media/kerg/DA9CC7989CC76D97/Eghdami/codes/marked_blocks_less_memory/split_database.cpp
+	"split_database.h"
+	<string.h>
+	<fstream>
+	<string>
+	"packed_db.h"
+	"fasta_reader.h"
+
+1551169977 source:/media/kerg/DA9CC7989CC76D97/Eghdami/codes/marked_blocks_less_memory/xdrop_gapalign.cpp
+	"xdrop_gapalign.h"
+	<algorithm>
+
+1551169977 /media/kerg/DA9CC7989CC76D97/Eghdami/codes/marked_blocks_less_memory/xdrop_gapalign.h
+	"defs.h"
+	"gapalign.h"
+	<string>
+
+1663335525 source:/media/kerg/DA9CC7989CC76D97/Eghdami/codes/marked_blocks_less_memory/pw_impl.cpp
+	"split_database.h"
+	"pw_options.h"
+	"diff_gapalign.h"
+	"xdrop_gapalign.h"
+	"packed_db.h"
+	"lookup_table.h"
+	"second_lookup_table.h"
+	"pw_impl.h"
+	<algorithm>
+	<cassert>
+	<cstdio>
+	<cstdlib>
+	<cstring>
+	<tgmath.h>
+
+1606062320 source:/media/kerg/DA9CC7989CC76D97/Eghdami/codes/marked_blockes_less_memory_without_related_kmers/alignment.cpp
+	"alignment.h"
+	<sstream>
+	<string>
+
+1606062392 /media/kerg/DA9CC7989CC76D97/Eghdami/codes/marked_blockes_less_memory_without_related_kmers/alignment.h
+	<fstream>
+	"defs.h"
+
+1606065847 /media/kerg/DA9CC7989CC76D97/Eghdami/codes/marked_blockes_less_memory_without_related_kmers/defs.h
+	<cassert>
+	<cstdlib>
+	<stdint.h>
+	<iostream>
+	<sstream>
+	<new>
+	<sys/time.h>
+
+1606062506 source:/media/kerg/DA9CC7989CC76D97/Eghdami/codes/marked_blockes_less_memory_without_related_kmers/buffer_line_iterator.cpp
+	"buffer_line_iterator.h"
+
+1606062524 /media/kerg/DA9CC7989CC76D97/Eghdami/codes/marked_blockes_less_memory_without_related_kmers/buffer_line_iterator.h
+	<cstring>
+	<stdint.h>
+	<iostream>
+	<fstream>
+	<string>
+	<vector>
+	"defs.h"
+	"pod_darr.h"
+
+1551169977 /media/kerg/DA9CC7989CC76D97/Eghdami/codes/marked_blockes_less_memory_without_related_kmers/pod_darr.h
+	<cassert>
+	<cstring>
+	<iterator>
+	<iostream>
+	<sstream>
+	"defs.h"
+
+1606065847 source:/media/kerg/DA9CC7989CC76D97/Eghdami/codes/marked_blockes_less_memory_without_related_kmers/defs.cpp
+	"defs.h"
+
+1606065965 source:/media/kerg/DA9CC7989CC76D97/Eghdami/codes/marked_blockes_less_memory_without_related_kmers/diff_gapalign.cpp
+	"diff_gapalign.h"
+	<algorithm>
+	<set>
+	<cstdlib>
+	<cstring>
+
+1606065965 /media/kerg/DA9CC7989CC76D97/Eghdami/codes/marked_blockes_less_memory_without_related_kmers/diff_gapalign.h
+	"defs.h"
+	"alignment.h"
+	"gapalign.h"
+	<string>
+	<vector>
+
+1551169977 /media/kerg/DA9CC7989CC76D97/Eghdami/codes/marked_blockes_less_memory_without_related_kmers/gapalign.h
+
+1606077983 source:/media/kerg/DA9CC7989CC76D97/Eghdami/codes/marked_blockes_less_memory_without_related_kmers/fasta_reader.cpp
+	"fasta_reader.h"
+	<algorithm>
+	<sstream>
+
+1606066169 /media/kerg/DA9CC7989CC76D97/Eghdami/codes/marked_blockes_less_memory_without_related_kmers/fasta_reader.h
+	"buffer_line_iterator.h"
+	"sequence.h"
+
+1551169977 /media/kerg/DA9CC7989CC76D97/Eghdami/codes/marked_blockes_less_memory_without_related_kmers/sequence.h
+	"buffer_line_iterator.h"
+	<iostream>
+
+1551169977 source:/media/kerg/DA9CC7989CC76D97/Eghdami/codes/marked_blockes_less_memory_without_related_kmers/gapalign.cpp
+	"gapalign.h"
+	<algorithm>
+	"defs.h"
+
+1551169977 source:/media/kerg/DA9CC7989CC76D97/Eghdami/codes/marked_blockes_less_memory_without_related_kmers/packed_db.cpp
+	"packed_db.h"
+	<fstream>
+	<string>
+	"defs.h"
+	"fasta_reader.h"
+
+1551169977 /media/kerg/DA9CC7989CC76D97/Eghdami/codes/marked_blockes_less_memory_without_related_kmers/packed_db.h
+	"defs.h"
+	"sequence.h"
+
+1606066604 source:/media/kerg/DA9CC7989CC76D97/Eghdami/codes/marked_blockes_less_memory_without_related_kmers/pw.cpp
+	"pw_options.h"
+	"pw_impl.h"
+	"split_database.h"
+	<cstdio>
+	<fstream>
+	<unistd.h>
+	<sstream>
+	<string>
+
+1605546444 /media/kerg/DA9CC7989CC76D97/Eghdami/codes/marked_blockes_less_memory_without_related_kmers/pw_options.h
+	"defs.h"
+
+1664460985 /media/kerg/DA9CC7989CC76D97/Eghdami/codes/marked_blockes_less_memory_without_related_kmers/pw_impl.h
+	<iostream>
+	<math.h>
+	"alignment.h"
+	"packed_db.h"
+	"lookup_table.h"
+
+1664457721 /media/kerg/DA9CC7989CC76D97/Eghdami/codes/marked_blockes_less_memory_without_related_kmers/lookup_table.h
+	"split_database.h"
+
+1664457215 /media/kerg/DA9CC7989CC76D97/Eghdami/codes/marked_blockes_less_memory_without_related_kmers/split_database.h
+	"defs.h"
+
+1551169977 source:/media/kerg/DA9CC7989CC76D97/Eghdami/codes/marked_blockes_less_memory_without_related_kmers/pw_options.cpp
+	"pw_options.h"
+	<unistd.h>
+	<dirent.h>
+	<sys/stat.h>
+	<cstdio>
+
+1659344943 source:/media/kerg/DA9CC7989CC76D97/Eghdami/codes/marked_blockes_less_memory_without_related_kmers/second_lookup_table.cpp
+	"second_lookup_table.h"
+	"packed_db.h"
+	<cstdio>
+
+1659275617 /media/kerg/DA9CC7989CC76D97/Eghdami/codes/marked_blockes_less_memory_without_related_kmers/second_lookup_table.h
+	"split_database.h"
+
+1551169977 source:/media/kerg/DA9CC7989CC76D97/Eghdami/codes/marked_blockes_less_memory_without_related_kmers/sequence.cpp
+	"sequence.h"
+
+1664524411 source:/media/kerg/DA9CC7989CC76D97/Eghdami/codes/marked_blockes_less_memory_without_related_kmers/split_database.cpp
+	"split_database.h"
+	<string.h>
+	<fstream>
+	<string>
+	"packed_db.h"
+	"fasta_reader.h"
+
+1551169977 source:/media/kerg/DA9CC7989CC76D97/Eghdami/codes/marked_blockes_less_memory_without_related_kmers/xdrop_gapalign.cpp
+	"xdrop_gapalign.h"
+	<algorithm>
+
+1551169977 /media/kerg/DA9CC7989CC76D97/Eghdami/codes/marked_blockes_less_memory_without_related_kmers/xdrop_gapalign.h
+	"defs.h"
+	"gapalign.h"
+	<string>
+
+1664527571 source:/media/kerg/DA9CC7989CC76D97/Eghdami/codes/marked_blockes_less_memory_without_related_kmers/pw_impl.cpp
+	"split_database.h"
+	"pw_options.h"
+	"diff_gapalign.h"
+	"xdrop_gapalign.h"
+	"packed_db.h"
+	"lookup_table.h"
+	"second_lookup_table.h"
+	"pw_impl.h"
+	<algorithm>
+	<cassert>
+	<cstdio>
+	<cstdlib>
+	<cstring>
+	<tgmath.h>
+
+1664457721 source:/media/kerg/DA9CC7989CC76D97/Eghdami/codes/marked_blockes_less_memory_without_related_kmers/lookup_table.cpp
+	"lookup_table.h"
+	"packed_db.h"
+	<cstdio>
+
+1606062320 source:/media/user/BE64E41364E3CBE9/eghdami/codes/20_mehr/codes/marked_blockes_less_memory_without_related_kmers/alignment.cpp
+	"alignment.h"
+	<sstream>
+	<string>
+
+1606062392 /media/user/BE64E41364E3CBE9/eghdami/codes/20_mehr/codes/marked_blockes_less_memory_without_related_kmers/alignment.h
+	<fstream>
+	"defs.h"
+
+1606065847 /media/user/BE64E41364E3CBE9/eghdami/codes/20_mehr/codes/marked_blockes_less_memory_without_related_kmers/defs.h
+	<cassert>
+	<cstdlib>
+	<stdint.h>
+	<iostream>
+	<sstream>
+	<new>
+	<sys/time.h>
+
+1606062506 source:/media/user/BE64E41364E3CBE9/eghdami/codes/20_mehr/codes/marked_blockes_less_memory_without_related_kmers/buffer_line_iterator.cpp
+	"buffer_line_iterator.h"
+
+1606062524 /media/user/BE64E41364E3CBE9/eghdami/codes/20_mehr/codes/marked_blockes_less_memory_without_related_kmers/buffer_line_iterator.h
+	<cstring>
+	<stdint.h>
+	<iostream>
+	<fstream>
+	<string>
+	<vector>
+	"defs.h"
+	"pod_darr.h"
+
+1551169977 /media/user/BE64E41364E3CBE9/eghdami/codes/20_mehr/codes/marked_blockes_less_memory_without_related_kmers/pod_darr.h
+	<cassert>
+	<cstring>
+	<iterator>
+	<iostream>
+	<sstream>
+	"defs.h"
+
+1606065847 source:/media/user/BE64E41364E3CBE9/eghdami/codes/20_mehr/codes/marked_blockes_less_memory_without_related_kmers/defs.cpp
+	"defs.h"
+
+1606065965 source:/media/user/BE64E41364E3CBE9/eghdami/codes/20_mehr/codes/marked_blockes_less_memory_without_related_kmers/diff_gapalign.cpp
+	"diff_gapalign.h"
+	<algorithm>
+	<set>
+	<cstdlib>
+	<cstring>
+
+1606065965 /media/user/BE64E41364E3CBE9/eghdami/codes/20_mehr/codes/marked_blockes_less_memory_without_related_kmers/diff_gapalign.h
+	"defs.h"
+	"alignment.h"
+	"gapalign.h"
+	<string>
+	<vector>
+
+1551169977 /media/user/BE64E41364E3CBE9/eghdami/codes/20_mehr/codes/marked_blockes_less_memory_without_related_kmers/gapalign.h
+
+1606077983 source:/media/user/BE64E41364E3CBE9/eghdami/codes/20_mehr/codes/marked_blockes_less_memory_without_related_kmers/fasta_reader.cpp
+	"fasta_reader.h"
+	<algorithm>
+	<sstream>
+
+1606066169 /media/user/BE64E41364E3CBE9/eghdami/codes/20_mehr/codes/marked_blockes_less_memory_without_related_kmers/fasta_reader.h
+	"buffer_line_iterator.h"
+	"sequence.h"
+
+1551169977 /media/user/BE64E41364E3CBE9/eghdami/codes/20_mehr/codes/marked_blockes_less_memory_without_related_kmers/sequence.h
+	"buffer_line_iterator.h"
+	<iostream>
+
+1551169977 source:/media/user/BE64E41364E3CBE9/eghdami/codes/20_mehr/codes/marked_blockes_less_memory_without_related_kmers/gapalign.cpp
+	"gapalign.h"
+	<algorithm>
+	"defs.h"
+
+1664457721 source:/media/user/BE64E41364E3CBE9/eghdami/codes/20_mehr/codes/marked_blockes_less_memory_without_related_kmers/lookup_table.cpp
+	"lookup_table.h"
+	"packed_db.h"
+	<cstdio>
+
+1664457721 /media/user/BE64E41364E3CBE9/eghdami/codes/20_mehr/codes/marked_blockes_less_memory_without_related_kmers/lookup_table.h
+	"split_database.h"
+
+1724579674 /media/user/BE64E41364E3CBE9/eghdami/codes/20_mehr/codes/marked_blockes_less_memory_without_related_kmers/split_database.h
+	"defs.h"
+
+1551169977 /media/user/BE64E41364E3CBE9/eghdami/codes/20_mehr/codes/marked_blockes_less_memory_without_related_kmers/packed_db.h
+	"defs.h"
+	"sequence.h"
+
+1551169977 source:/media/user/BE64E41364E3CBE9/eghdami/codes/20_mehr/codes/marked_blockes_less_memory_without_related_kmers/packed_db.cpp
+	"packed_db.h"
+	<fstream>
+	<string>
+	"defs.h"
+	"fasta_reader.h"
+
+1722354428 source:/media/user/BE64E41364E3CBE9/eghdami/codes/20_mehr/codes/marked_blockes_less_memory_without_related_kmers/pw.cpp
+	"pw_options.h"
+	"pw_impl.h"
+	"split_database.h"
+	<cstdio>
+	<fstream>
+	<unistd.h>
+	<sstream>
+	<string>
+
+1605546444 /media/user/BE64E41364E3CBE9/eghdami/codes/20_mehr/codes/marked_blockes_less_memory_without_related_kmers/pw_options.h
+	"defs.h"
+
+1741267995 /media/user/BE64E41364E3CBE9/eghdami/codes/20_mehr/codes/marked_blockes_less_memory_without_related_kmers/pw_impl.h
+	<iostream>
+	<math.h>
+	"alignment.h"
+	"packed_db.h"
+	"lookup_table.h"
+
+1551169977 source:/media/user/BE64E41364E3CBE9/eghdami/codes/20_mehr/codes/marked_blockes_less_memory_without_related_kmers/pw_options.cpp
+	"pw_options.h"
+	<unistd.h>
+	<dirent.h>
+	<sys/stat.h>
+	<cstdio>
+
+1659344943 source:/media/user/BE64E41364E3CBE9/eghdami/codes/20_mehr/codes/marked_blockes_less_memory_without_related_kmers/second_lookup_table.cpp
+	"second_lookup_table.h"
+	"packed_db.h"
+	<cstdio>
+
+1659275617 /media/user/BE64E41364E3CBE9/eghdami/codes/20_mehr/codes/marked_blockes_less_memory_without_related_kmers/second_lookup_table.h
+	"split_database.h"
+
+1551169977 source:/media/user/BE64E41364E3CBE9/eghdami/codes/20_mehr/codes/marked_blockes_less_memory_without_related_kmers/sequence.cpp
+	"sequence.h"
+
+1722360462 source:/media/user/BE64E41364E3CBE9/eghdami/codes/20_mehr/codes/marked_blockes_less_memory_without_related_kmers/split_database.cpp
+	"split_database.h"
+	<string.h>
+	<fstream>
+	<string>
+	"packed_db.h"
+	"fasta_reader.h"
+
+1551169977 source:/media/user/BE64E41364E3CBE9/eghdami/codes/20_mehr/codes/marked_blockes_less_memory_without_related_kmers/xdrop_gapalign.cpp
+	"xdrop_gapalign.h"
+	<algorithm>
+
+1551169977 /media/user/BE64E41364E3CBE9/eghdami/codes/20_mehr/codes/marked_blockes_less_memory_without_related_kmers/xdrop_gapalign.h
+	"defs.h"
+	"gapalign.h"
+	<string>
+
+1739977480 source:/media/user/BE64E41364E3CBE9/eghdami/codes/20_mehr/codes/marked_blockes_less_memory_without_related_kmers/pw_impl.cpp
+	"split_database.h"
+	"pw_options.h"
+	"diff_gapalign.h"
+	"xdrop_gapalign.h"
+	"packed_db.h"
+	"lookup_table.h"
+	"second_lookup_table.h"
+	"pw_impl.h"
+	<algorithm>
+	<cassert>
+	<cstdio>
+	<cstdlib>
+	<cstring>
+	<tgmath.h>
+
